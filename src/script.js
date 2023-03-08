@@ -5,9 +5,9 @@ const cognomeUtente = prompt('Inserisci il tuo cognome');
 
 const coloreprefUtente = prompt('Inserisci il tuo colore preferito');
 
-const num = 21
+const num = 21;
 
-console.log(nomeUtente + cognomeUtente + coloreprefUtente + num )
+console.log(nomeUtente + cognomeUtente + coloreprefUtente + num );
 
 document.getElementById('pass').innerHTML = `
 <h1> ${nomeUtente}${cognomeUtente}${coloreprefUtente}${num} </h1>
